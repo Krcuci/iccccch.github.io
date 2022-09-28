@@ -29,14 +29,14 @@ function checkTime(i) {
     return i;
 }
 
-var name = prompt("请输入你的名字", "名字");
-var mm = prompt("请输入你的学号", "学号");
-if (name != 'aaaa') {
-    x = document.getElementById("demo");  //查找元素
-    var a = "学生:" + name + ", 白名单验证通过,该申请离校扫码1次,离校码只能使用一次,请不要重复打开"
-    x.innerHTML = a;    //改变内容
-    var b = name + "-" + mm;
-    y = document.getElementById("nas");
-    y.innerHTML = b;
-}
+// var name = prompt("请输入你的名字", "名字");
+// var mm = prompt("请输入你的学号", "学号");
+// if (name != 'aaaa') {
+//     x = document.getElementById("demo");  //查找元素
+//     var a = "学生:" + name + ", 白名单验证通过,该申请离校扫码1次,离校码只能使用一次,请不要重复打开"
+//     x.innerHTML = a;    //改变内容
+//     var b = name + "-" + mm;
+//     y = document.getElementById("nas");
+//     y.innerHTML = b;
+// }
 //		document.write("<p style='color: red;'>"+name+"</p>")
